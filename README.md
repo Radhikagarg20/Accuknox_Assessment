@@ -65,16 +65,6 @@ Choose two of the following objectives and implement them using either Bash or P
 2. **Automated Backup Solution**:
    - This script automates backing up a specified directory to a remote server or cloud storage. It ensures that backups are completed successfully and provides reports on the status.
 
-### Solution Implementation
-
-#### 1. **System Health Monitoring Script** (Python)
-#### 2. **Automated Backup Solution** (Bash/Python)
-
-
-### Files in this section:
-- `system_health_monitor.py` - Python script for monitoring system health.
-- `automated_backup.sh` - Bash script for automated backups.
-
 ---
 
 ## Getting Started
