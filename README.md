@@ -1,6 +1,6 @@
 # Wisecow Application Deployment on Kubernetes & System Monitoring Scripts
 
-![Wisecow Application]([https://your-image-link.com/wisecow-logo](https://github.com/nyrahul/wisecow)
+![Wisecow Application]([https://github.com/nyrahul/wisecow](https://github.com/nyrahul/wisecow)
 
 ## Project Overview
 
@@ -68,29 +68,8 @@ Choose two of the following objectives and implement them using either Bash or P
 ### Solution Implementation
 
 #### 1. **System Health Monitoring Script** (Python)
-
-This script monitors the following system metrics:
-- CPU usage
-- Memory usage
-- Disk space
-- Running processes
-
-If any of these metrics exceed predefined thresholds (e.g., CPU usage > 80%), an alert is generated and logged.
-
-**Key Features**:
-- CPU usage alert when usage exceeds 80%.
-- Memory usage alert when usage exceeds 90%.
-- Disk space alert if disk usage exceeds 75%.
-- Process monitoring with a customizable threshold.
-
 #### 2. **Automated Backup Solution** (Bash/Python)
 
-This script automates the backup of a specified directory to a remote server or cloud storage. It ensures that backups are completed successfully and provides reports on the status.
-
-**Key Features**:
-- Automates backup of a user-defined directory.
-- Supports backing up to remote servers or cloud storage solutions.
-- Provides success or failure reports on the backup process.
 
 ### Files in this section:
 - `system_health_monitor.py` - Python script for monitoring system health.
@@ -102,7 +81,7 @@ This script automates the backup of a specified directory to a remote server or 
 
 ### Prerequisites
 
-1. **Docker**: Installed on your local machine or CI/CD environment.
+1. **Docker**: Installed on local machine or CI/CD environment.
 2. **Kubernetes**: A Kubernetes cluster (local or cloud-based) to deploy the application.
 3. **GitHub Actions**: For CI/CD pipeline automation.
 4. **TLS Certificates**: Ensure that you have TLS certificates for securing communication.
@@ -117,27 +96,6 @@ This script automates the backup of a specified directory to a remote server or 
    git clone https://github.com/yourusername/wisecow-app-deployment.git
    cd wisecow-app-deployment
 
-
-
-
-
-# Wisecow Application Deployment and System Monitoring Scripts
-
-## Project Overview
-
-This repository contains two major components:
-
-1. **Containerization and Deployment of the Wisecow Application on Kubernetes**
-   - The goal of this project is to containerize the Wisecow application and deploy it on a Kubernetes environment with secure TLS communication. The project also automates the build and deployment process using CI/CD via GitHub Actions.
-
-2. **System Health Monitoring and Automated Backup Solution**
-   - The second part of the project involves the creation of two scripts:
-     - **System Health Monitoring Script**: Monitors the health of a Linux system (CPU usage, memory usage, disk space, and running processes) and sends an alert if any metric exceeds predefined thresholds.
-     - **Automated Backup Solution**: Automates the backup of a specified directory to a remote server or cloud storage solution, with a success or failure report.
-
----
-
-## Containerization and Deployment of Wisecow Application on Kubernetes
 
 ### Steps to Achieve the Objective
 
@@ -203,9 +161,3 @@ This repository contains two major components:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-## Acknowledgements
-
-- Kubernetes documentation for deployment setup.
-- Docker documentation for containerization.
-- GitHub Actions documentation for CI/CD pipelines.
