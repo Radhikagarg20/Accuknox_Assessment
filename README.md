@@ -40,19 +40,9 @@ To containerize the Wisecow application, deploy it on a Kubernetes environment, 
 #### 4. TLS Implementation
 - Configured the Wisecow application to support TLS communication, ensuring secure data transmission.
 
-### Files in this section:
-- `Dockerfile` - Defines the containerization of the Wisecow app.
-- `deployment.yaml` - Kubernetes manifest for deploying the app.
-- `service.yaml` - Kubernetes service definition for exposing the app.
-- `.github/workflows/ci-cd-pipeline.yml` - GitHub Actions workflow for CI/CD automation.
-
 ---
 
 ## Problem Statement 2: System Health Monitoring and Automated Backup Solution
-
-### Objective
-
-Choose two of the following objectives and implement them using either Bash or Python:
 
 1. **System Health Monitoring Script**:
    - This script monitors the following system metrics:
@@ -66,8 +56,6 @@ Choose two of the following objectives and implement them using either Bash or P
    - This script automates backing up a specified directory to a remote server or cloud storage. It ensures that backups are completed successfully and provides reports on the status.
 
 ---
-
-## Getting Started
 
 ### Prerequisites
 
@@ -149,5 +137,3 @@ Choose two of the following objectives and implement them using either Bash or P
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
