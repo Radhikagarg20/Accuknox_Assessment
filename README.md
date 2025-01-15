@@ -1,16 +1,18 @@
 # Wisecow Application Deployment on Kubernetes & System Monitoring Scripts
 
+![Wisecow Application]([https://your-image-link.com/wisecow-logo](https://github.com/nyrahul/wisecow)
+
 ## Project Overview
 
 This repository contains two major components:
 
-1. **Containerization and Deployment of the Wisecow Application on Kubernetes**
-   - The goal of this project is to containerize the Wisecow application, hosted in the [Wisecow GitHub Repository](https://github.com/nyrahul/wisecow), and deploy it on a Kubernetes environment with secure TLS communication. Additionally, we will automate the build and deployment process using CI/CD via GitHub Actions.
-   
-2. **System Monitoring and Backup Scripts (Bash/Python)**
-   - The second part of the project involves the creation of two scripts:
-     - **System Health Monitoring Script**: Monitors the health of a Linux system (CPU usage, memory usage, disk space, and running processes) and sends an alert if any metric exceeds predefined thresholds.
-     - **Automated Backup Solution**: Automates the backup of a specified directory to a remote server or cloud storage solution, with a success or failure report.
+1. **Containerization and Deployment of the Wisecow Application on Kubernetes**  
+   The goal of this project is to containerize the Wisecow application, hosted in the [Wisecow GitHub Repository](https://github.com/nyrahul/wisecow), and deploy it on a Kubernetes environment with secure TLS communication. Additionally, we will automate the build and deployment process using CI/CD via GitHub Actions.
+
+2. **System Monitoring and Backup Scripts (Bash/Python)**  
+   The second part of the project involves the creation of two scripts:
+   - **System Health Monitoring Script**: Monitors the health of a Linux system (CPU usage, memory usage, disk space, and running processes) and sends an alert if any metric exceeds predefined thresholds.
+   - **Automated Backup Solution**: Automates the backup of a specified directory to a remote server or cloud storage solution, with a success or failure report.
 
 ---
 
@@ -38,7 +40,7 @@ To containerize the Wisecow application, deploy it on a Kubernetes environment, 
 #### 4. TLS Implementation
 - Configured the Wisecow application to support TLS communication, ensuring secure data transmission.
 
-### Files in this section
+### Files in this section:
 - `Dockerfile` - Defines the containerization of the Wisecow app.
 - `deployment.yaml` - Kubernetes manifest for deploying the app.
 - `service.yaml` - Kubernetes service definition for exposing the app.
@@ -90,7 +92,7 @@ This script automates the backup of a specified directory to a remote server or 
 - Supports backing up to remote servers or cloud storage solutions.
 - Provides success or failure reports on the backup process.
 
-### Files in this section
+### Files in this section:
 - `system_health_monitor.py` - Python script for monitoring system health.
 - `automated_backup.sh` - Bash script for automated backups.
 
@@ -114,6 +116,7 @@ This script automates the backup of a specified directory to a remote server or 
    ```bash
    git clone https://github.com/yourusername/wisecow-app-deployment.git
    cd wisecow-app-deployment
+
 
 
 
